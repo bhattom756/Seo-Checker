@@ -1,3 +1,10 @@
+# Preview of Live App
+
+![image](https://github.com/Debug-001/seo-check/assets/72290164/8cc7d176-c1b6-4a90-88d5-25f7410406e0)
+
+![image](https://github.com/Debug-001/seo-check/assets/72290164/76c62ecb-312b-4d15-a219-d215a0978aef)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
