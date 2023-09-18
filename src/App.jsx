@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 import { ClipLoader } from "react-spinners";
 
-// Flatten nested data into a flat array of key-value pairs
 const flattenData = (data) => {
   let flatData = [];
 
   const flatten = (obj, parentKey = "") => {
     if (typeof obj !== "object") {
-      // Handle unexpected data here, log an error, or return an empty array.
       return;
     }
 
@@ -21,11 +19,10 @@ const flattenData = (data) => {
     }
   };
 
-  flatten(data); // Call the flatten function to populate flatData
-  return flatData; // Return the flattened data
+  flatten(data);
+  return flatData; 
 };
 
-// Render flattened data as SEO cards
 const renderFlatData = (flatData) => {
   return flatData.map((item) => (
     <div key={item.key} className="seo-card">
@@ -59,7 +56,7 @@ function App() {
   return (
     <section className="app">
       <div className="container">
-        <h1 className="title">SEO Checker</h1>
+        <h1 className="title font-weight-bolder"><em>SEO Checker</em></h1>
         <form className="input-form" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -81,7 +78,7 @@ function App() {
 
         {result && (
           <div className="results">
-            <h2 className="results-title">SEO Results</h2>
+            <h2 className="results-title font-weight-bolder"><em>SEO Results</em></h2>
             <hr className="divider" />
             <div className="seo-card-container">
               {renderFlatData(flattenData(result))}
