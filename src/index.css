@@ -1,0 +1,82 @@
+.btn{
+  padding-top: 7px !important;
+  padding-bottom: 10px !important;
+  background-color: #ff2828;
+  color: white;
+  border: solid 2px #ff2828;
+}
+
+.form-content{
+flex-direction: column;
+
+}
+.btn:hover{
+  background-color: #000000;
+  color: white;
+  border: solid 2px #000000;
+  transition: all .4s;
+}
+
+.input-container {
+  position: relative;
+  margin: 2.5rem;
+}
+
+.input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #333;
+  width: 200px;
+  outline: none;
+}
+
+
+.ls{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+hr{
+  width: 5%; 
+  margin: 0 auto;
+  height: 4px !important;
+  background-color: #ff2828;
+  opacity: 100%;
+}
+
+h1{
+  color: #ff2828;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 1.35rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #333;
+}
+
+.seo-card-container {
+  flex-basis: calc(25% - 20px); /* 25% for four cards per row with some spacing */
+  margin: 10px; /* Adjust the margin as needed for spacing between cards */
+  box-sizing: border-box;
+}
+
+.seo-card {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 767px) {
+  .seo-card-container {
+    flex-basis: calc(50% - 20px); /* 50% for two cards per row on smaller screens */
+  }
+}
