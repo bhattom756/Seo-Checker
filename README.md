@@ -1,3 +1,6 @@
+#Live Deployment 
+https://seo-checkerzz.netlify.app/
+
 # Preview of Live App
 
 ![image](https://github.com/Debug-001/seo-check/assets/72290164/8cc7d176-c1b6-4a90-88d5-25f7410406e0)
